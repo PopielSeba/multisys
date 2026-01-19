@@ -46,6 +46,13 @@ export default function HomePage() {
         >
           tel. 500 600 525
         </a>
+
+        {/* Footer */}
+        <div className="mt-12 text-center animate-fadeInUp animation-delay-600">
+          <p className="text-xs md:text-sm text-white/40 tracking-wide">
+            PPP :: Program | Sebastian Popiel | Individual Personal Solutions
+          </p>
+        </div>
       </div>
 
       <style>{`
@@ -81,6 +88,12 @@ export default function HomePage() {
 
         .animation-delay-300 {
           animation-delay: 0.3s;
+          opacity: 0;
+          animation-fill-mode: forwards;
+        }
+
+        .animation-delay-600 {
+          animation-delay: 0.6s;
           opacity: 0;
           animation-fill-mode: forwards;
         }
